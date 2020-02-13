@@ -2062,7 +2062,11 @@ describe('Google Analytics', function() {
             'send',
             'event',
             'Checkout',
-            'Option'
+            'Option',
+            {
+              step: 2,
+              option: 'FedEx'
+            }
           ]);
         });
 
@@ -2092,7 +2096,11 @@ describe('Google Analytics', function() {
             'send',
             'event',
             'Checkout',
-            'Option'
+            'Option',
+            {
+              step: 2,
+              option: 'Visa, FedEx'
+            }
           ]);
         });
 

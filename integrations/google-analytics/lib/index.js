@@ -774,7 +774,10 @@ GA.prototype.checkoutStepCompletedEnhanced = function(track) {
     option: options
   });
 
-  window.ga(self._trackerName + 'send', 'event', 'Checkout', 'Option');
+  window.ga(self._trackerName + 'send', 'event', 'Checkout', 'Option', {
+    step: props.step || 1,
+    option: options
+  });
 };
 
 /**

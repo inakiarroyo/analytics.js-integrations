@@ -1,3 +1,8 @@
+2.18.2 / 2020-02-12
+===================
+
+  * Add checkout options to the checkout step completed event hit.
+
 2.18.1 / 2020-02-07
 ===================
 
